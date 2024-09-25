@@ -1,13 +1,16 @@
 import React from 'react'
 import {AiFillMail} from 'react-icons/ai'
 import { AiFillSignature} from 'react-icons/ai'
+import Ime from './assets/Ime.jpg'
 const Signin = () => {
   return (
-    <div className=' box flex flex-wrap bg-transparent justify-center item-center flex mt-20 h-screen w-screen'>
-     <div className='main mt-20 flex flex-wrap bg-slate-400 w-96 ring ring-slate-900 ring-offset-2 '>
+    <div className=' box flex flex-wrap bg-transparent justify-center item-center  md:flex'>
+        <img src={Ime}  className='absolute w-screen h-screen'></img>
+     <div className='main mt-20 flex flex-wrap bg-slate-400 h-screen w-84 ring ring-slate-900 ring-offset-2 '>
+     
         </div>
-     <form className='flex flex-col text-left'>
-     <h1 className='text-white bg-transparent text-4xl mb-3 m-15 mt-15 text-center font-bold italic'>Dummy Form</h1>
+     <form className='md:flex flex-col text-center mt-20'>
+     <h1 className='text-white bg-transparent text-4xl mb-3 m-15 mt-20 text-center font-bold italic'>Dummy Form</h1>
         <p className='text-center text-slate-900 font-bold'>Welcome back! john Doe</p>   
      
             <div className='mt-10 mb-5 font-bold text-4xl-black flex flex-row '>
